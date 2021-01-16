@@ -13,4 +13,4 @@ def index(request):
 
 def reset(request):
     request.session.clear()
-    return redirect("/")
+    return redirect("/")    
